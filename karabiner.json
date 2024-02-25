@@ -398,12 +398,14 @@
                                 "from": {
                                     "key_code": "right_command",
                                     "modifiers": {
-                                        "optional": ["any"]
+                                        "optional": [
+                                            "any"
+                                        ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_command",
+                                        "key_code": "left_control",
                                         "lazy": true
                                     }
                                 ],
@@ -571,7 +573,7 @@
                                 ]
                             }
                         ]
-                    },                    
+                    },
                     {
                         "description": "Hyper + F + I/J/K/L to select text like Vim while holding F",
                         "manipulators": [
@@ -1101,7 +1103,9 @@
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": {
-                                        "mandatory": ["fn"]
+                                        "mandatory": [
+                                            "fn"
+                                        ]
                                     }
                                 },
                                 "to": [
@@ -1126,7 +1130,9 @@
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": {
-                                        "mandatory": ["fn"]
+                                        "mandatory": [
+                                            "fn"
+                                        ]
                                     }
                                 },
                                 "to": [
@@ -1151,7 +1157,9 @@
                                 "from": {
                                     "key_code": "l",
                                     "modifiers": {
-                                        "mandatory": ["fn"]
+                                        "mandatory": [
+                                            "fn"
+                                        ]
                                     }
                                 },
                                 "to": [
@@ -1176,7 +1184,9 @@
                                 "from": {
                                     "key_code": "i",
                                     "modifiers": {
-                                        "mandatory": ["fn"]
+                                        "mandatory": [
+                                            "fn"
+                                        ]
                                     }
                                 },
                                 "to": [
@@ -1201,7 +1211,9 @@
                                 "from": {
                                     "key_code": "m",
                                     "modifiers": {
-                                        "mandatory": ["fn"]
+                                        "mandatory": [
+                                            "fn"
+                                        ]
                                     }
                                 },
                                 "to": [
@@ -1678,8 +1690,7 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
-                    "simple_modifications": [
-                    ],
+                    "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
