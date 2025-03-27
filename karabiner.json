@@ -623,7 +623,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "j",
+                                        "key_code": "h",
                                         "modifiers": ["left_control", "left_option", "left_command", "left_shift"]
                                     }
                                 ],
@@ -641,7 +641,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "k",
+                                        "key_code": "j",
                                         "modifiers": ["left_control", "left_option", "left_command", "left_shift"]
                                     }
                                 ],
@@ -677,7 +677,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "i",
+                                        "key_code": "k",
                                         "modifiers": ["left_control", "left_option", "left_command", "left_shift"]
                                     }
                                 ],
